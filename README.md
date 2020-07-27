@@ -1,2 +1,2 @@
 # CelebA-Conditional-GAN
-VAC-GAN for conditional generation
+VAC+GAN for conditional generation
