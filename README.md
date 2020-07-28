@@ -11,15 +11,24 @@ If you do not want to download the datatest zip file and the attribute file from
 
 ![Image description](Images/Picture1.png)
 
-In this kind of approach, the Generative Adversarial Network generator is turned into a conditional generator by placing a multi-class classifier in parallel with the discriminator network and backpropagate the classification error through the generator. This technique is versatile enough to be applied to any GAN [5].
+In this kind of approach, the Generative Adversarial Network generator is turned into a conditional generator by placing a multi-class classifier in parallel with the discriminator network and backpropagate the classification error through the generator. This technique is versatile enough to be applied to any GAN.
 
 ## Results
 
-![Image description](Images/Picture2.png)
-
 ![Image description](Images/Picture3.png)
+Images generated from random labels of the dataset
+
+![Image description](Images/Picture2.png)
+Top-Left: Young = 1, Attractive = 1, Black_Hair  = 1, Smiling = 1, Heavy_Makeup = 1, No_Bread = 1  
+Top-Right: Young = 1, Attractive = 1, Brown_Hair  = 1, Smiling = 1, Heavy_Makeup = 1, No_Bread = 1
+Bottom-Left: Young = 1, Attractive = 1, Blond_Hair  = 1, Smiling = 1, Heavy_Makeup = 1, No_Bread = 1 
+Bottom-Right: Young = 1, Attractive = 1, Brown_Hair  = 1, Smiling = 1, Heavy_Makeup = 1, No_Bread = 1, Bans = 1
 
 ![Image description](Images/Picture4.png)
+Left: Male = 1, Young = 1, Attractive = 1, Black_Hair  = 1, Eyeglasses = 1, No_Bread = 1 
+Right: Male = 1, Attractive = 1, Bald = 1, Big_Nose = 1, No_Bread = 1
+
+
 
 
 
