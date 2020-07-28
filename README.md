@@ -9,7 +9,10 @@ If you do not want to download the datatest zip file and the attribute file from
 
 ## Network
 
-<img align="center" width="500" height="400" src="https://github.com/guyez/CelebA-Conditional-GAN/blob/master/Images/Picture1.png">
+<p align="center">
+  <img width="460" height="300" src="https://github.com/guyez/CelebA-Conditional-GAN/blob/master/Images/Picture1.png">
+</p>
+
 
 In this kind of approach, the Generative Adversarial Network generator is turned into a conditional generator by placing a multi-class classifier in parallel with the discriminator network and backpropagate the classification error through the generator. This technique is versatile enough to be applied to any GAN.
 
