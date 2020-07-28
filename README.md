@@ -2,7 +2,12 @@
 
 ## Getting Started
 
-If you do not want to download the datatest zip file and the attribute file from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html you can use the VAC+GAN+tfrec notebook. Doing so the dataset is loaded from a Google Cloud bucket. Please notice that it will be available on it till April 2021. If you prefer to load the datatest from tfrecords after that date you can use the celeba_tfrec script (`celeba_tfrec.py --fn_root PathWhereYourZipFileIsStored --partition_fn PathWhereYouWantToSaveTheTfrecs --number NumberOfTfrecs`) to create your tfrec files and upload them on a Google Cloud bucket that you prefer, then you have just to modify a little bit the notebook code by changing the path of the bucket.
+1. Download the datatest zip file (img_align_celeba.zip) and the attribute file (list_attr_celeba.txt) from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+2. Create a folder in your Google Drive where upload the downloaded files
+3. Open the VAC+GAN notebook and enjoy!
+
+
+If you do not want to download the datatest zip file and the attribute file you can use the VAC+GAN+tfrec notebook. Doing so the dataset is loaded from a Google Cloud bucket. Please notice that if you want to load the datatest from tfrecords after April 2021 you have to use the celeba_tfrec script (`celeba_tfrec.py --fn_root PathWhereYourZipFileIsStored --partition_fn PathWhereYouWantToSaveTheTfrecs --number NumberOfTfrecs`) to create your own tfrec files and upload them on a Google Cloud bucket that you prefer, then you just have to modify a little bit the notebook code by changing the path of the bucket.
 
 ## Network
 
