@@ -8,9 +8,9 @@ import argparse
 
 
 parser = argparse.ArgumentParser(description='Argument parser')
-parser.add_argument("fn_root", help="Name of root file path", required = True, type=str)
-parser.add_argument("partition_fn", help="Partition file path.", required = True, type=str)
-parser.add_argument("number", help="Number of files.", required = True, type=str)
+parser.add_argument("--fn_root", help="Name of root file path", required = True, type=str)
+parser.add_argument("--partition_fn", help="Partition file path", required = True, type=str)
+parser.add_argument("--number", help="Number of files", required = True, type=str)
 args = parser.parse_args()
 
 
