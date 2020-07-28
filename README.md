@@ -1,11 +1,8 @@
 # CelebA-Conditional-GAN
 
-
+## Getting Started
 
 If you do not want to download the datatest zip file and the attribute file from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html you can use the VAC+GAN+tfrec notebook. Doing so the dataset is loaded from a Google Cloud bucket. Please notice that it will be available on it till April 2021. If you prefer to load the datatest from tfrecords after that date you can use the celeba_tfrec script (`celeba_tfrec.py --fn_root PathWhereYourZipFileIsStored --partition_fn PathWhereYouWantToSaveTheTfrecs --number NumberOfTfrecs`) to create your tfrec files and upload them on a Google Cloud bucket that you prefer, then you have just to modify a little bit the notebook code by changing the path of the bucket.
-
-
-
 
 ## Network
 
@@ -22,8 +19,6 @@ In this kind of approach, the Generative Adversarial Network generator is turned
 
 Images generated from random labels of the dataset
 
-
-
 ![Image description](Images/Picture2.png)
 
 Top-Left: Young = 1, Attractive = 1, Black_Hair  = 1, Smiling = 1, Heavy_Makeup = 1, No_Bread = 1  
@@ -34,15 +29,11 @@ Bottom-Left: Young = 1, Attractive = 1, Blond_Hair  = 1, Smiling = 1, Heavy_Make
 
 Bottom-Right: Young = 1, Attractive = 1, Brown_Hair  = 1, Smiling = 1, Heavy_Makeup = 1, No_Bread = 1, Bans = 1
 
-
-
 ![Image description](Images/Picture4.png)
 
 Left: Male = 1, Young = 1, Attractive = 1, Black_Hair  = 1, Eyeglasses = 1, No_Bread = 1 
 
 Right: Male = 1, Attractive = 1, Bald = 1, Big_Nose = 1, No_Bread = 1
-
-
 
 ## Authors
 
