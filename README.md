@@ -15,11 +15,11 @@ In this kind of approach, the Generative Adversarial Network generator is turned
 
 ## Results
 
-![Image description](Images/Picture2.jpg)
+![Image description](Images/Picture2.png)
 
-![Image description](Images/Picture3.jpg)
+![Image description](Images/Picture3.png)
 
-![Image description](Images/Picture4.jpg)
+![Image description](Images/Picture4.png)
 
 
 
