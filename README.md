@@ -1,4 +1,4 @@
-# CelebA Conditional Generation using a VAC+GAN
+# Conditional Generation using a VAC+GAN
 
 ## Getting Started
 
